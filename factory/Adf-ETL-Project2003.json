@@ -1,0 +1,9 @@
+{
+	"name": "Adf-ETL-Project2003",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2fe7af87-b66d-427a-9ce3-7e813e8dbddb",
+		"tenantId": "ffe3b169-48e5-47fb-952a-3678d7bc9a79"
+	}
+}
