@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Adf-ETL-Project2003"
+		},
+		"ETL_Link_Service_accountKey": {
+			"value": ""
+		},
+		"ETL_Link_Service_properties_typeProperties_url": {
+			"value": "https://etlstorageaccount2.dfs.core.windows.net/"
+		},
+		"linkGitserverce_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"link_Git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		}
+	}
+}
