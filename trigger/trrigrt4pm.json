@@ -1,0 +1,24 @@
+{
+	"name": "trrigrt4pm",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "onlyselectedfile",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-04-06T15:41:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
