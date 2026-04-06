@@ -2,7 +2,7 @@
 	"name": "selectedfilenewtrigger",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -17,7 +17,7 @@
 				"frequency": "Minute",
 				"interval": 1,
 				"startTime": "2026-04-06T13:05:00",
-				"endTime": "2026-04-06T13:20:00",
+				"endTime": "2026-04-07T13:20:00",
 				"timeZone": "India Standard Time"
 			}
 		}
