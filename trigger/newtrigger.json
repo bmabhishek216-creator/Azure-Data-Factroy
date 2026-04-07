@@ -1,0 +1,25 @@
+{
+	"name": "newtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "onlyselectedfile",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2026-04-07T11:14:00",
+				"endTime": "2026-04-07T11:20:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
