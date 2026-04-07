@@ -6,20 +6,19 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "onlyselectedfile",
+					"referenceName": "ETL-AZURE-DATA-FACTROY",
 					"type": "PipelineReference"
 				}
 			}
 		],
-		"type": "ScheduleTrigger",
+		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"recurrence": {
-				"frequency": "Minute",
-				"interval": 3,
-				"startTime": "2026-04-07T11:14:00",
-				"endTime": "2026-04-07T11:20:00",
-				"timeZone": "India Standard Time"
-			}
+			"blobPathBeginsWith": "/source/blobs/csvfiles/Fact_Sales_1.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/4599e1d1-5114-43f5-bdaf-3cce03f5ff04/resourceGroups/ETLPROJECT/providers/Microsoft.Storage/storageAccounts/etlstorageaccount2",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
 		}
 	}
 }
